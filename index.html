@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Concesionaria de motos Urban, Sport y Adventure.">
+    <title>Cente Motos | Venta de motos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container" aria-label="Navegación principal">
+            <a class="logo" href="#" aria-label="Cente Motos inicio">
+                <span class="logo-mark">CM</span>
+                <span>Cente Motos</span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="sr-only">Abrir menú</span>
+            </button>
+
+            <div class="nav-menu" id="menu">
+                <a class="nav-link active" href="#">Inicio</a>
+                <a class="nav-link" href="#motos">Motos</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </div>
+
+            <a class="nav-button" href="#motos">Ver modelos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="eyebrow">
+                        <span class="eyebrow-dot"></span>
+                        Motos usadas al mejor precio
+                    </div>
+                    <h1>Encontrá tu próxima <span>moto</span></h1>
+                    <p class="hero-text">
+                        Potencia, diseño y libertad en cada recorrido. Elegí el modelo
+                        que se adapte a tu estilo de conducción.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#motos">
+                            Ver motos
+                        </a>
+                        <a class="button button-secondary" href="#precio-ducati">Ver precio</a>
+                    </div>
+                    <div class="proof">
+                        <div>
+                            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+                            <small>Las mejores motos de Centenario</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=85"
+                         alt="Moto deportiva color negro">
+                </div>
+            </div>
+        </section>
+
+        <section class="models container" id="motos">
+            <div class="section-heading">
+                <span>Nuestros modelos</span>
+                <h2>Elegí tu próxima moto</h2>
+            </div>
+            <div class="model-grid">
+                <article class="model-card">
+                    <div class="model-image model-gallery">
+                        <span class="model-tag">Usada</span>
+                        <img data-gallery-main
+                             src="WhatsApp%20Image%202026-11-24%20at%2011.21.01%20PM.jpeg"
+                             alt="Ducati Multistrada 1200 S Touring, vista lateral">
+                        <div class="gallery-thumbnails" aria-label="Fotos de la Ducati">
+                            <button type="button" aria-label="Ver foto lateral" aria-pressed="true"
+                                    data-image="WhatsApp%20Image%202026-11-24%20at%2011.21.01%20PM.jpeg"
+                                    data-alt="Ducati Multistrada 1200 S Touring, vista lateral">
+                                <img src="WhatsApp%20Image%202026-11-24%20at%2011.21.01%20PM.jpeg" alt="">
+                            </button>
+                            <button type="button" aria-label="Ver foto del tablero y tanque" aria-pressed="false"
+                                    data-image="WhatsApp%20Image%202026-11-24%20at%2011.21.02%20PM%20%281%29.jpeg"
+                                    data-alt="Tablero y tanque de la Ducati Multistrada 1200 S Touring">
+                                <img src="WhatsApp%20Image%202026-11-24%20at%2011.21.02%20PM%20%281%29.jpeg" alt="">
+                            </button>
+                            <button type="button" aria-label="Ver foto desde el otro lado" aria-pressed="false"
+                                    data-image="WhatsApp%20Image%202026-11-24%20at%2011.21.02%20PM.jpeg"
+                                    data-alt="Ducati Multistrada 1200 S Touring, vista desde el otro lado">
+                                <img src="WhatsApp%20Image%202026-11-24%20at%2011.21.02%20PM.jpeg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="model-info">
+                        <h3>Ducati Multistrada 1200 S Touring</h3>
+                        <p class="category">Adventure touring · Año 2013</p>
+                        <div class="model-footer">
+                            <div id="precio-ducati">
+                                <small>Precio</small>
+                                <strong>USD 17.000</strong>
+                                <p class="price-note">Precio sin maletas laterales, sin topcase</p>
+                            </div>
+                        </div>
+                        <details class="model-details">
+                            <summary>Más info</summary>
+                            <p>Modelo S Full. Suspensión electrónica, ABS, control de tracción, 4 modos de manejo, puños calefactables, llave de cercanía (Keyless) y service de Desmo recién hecho.</p>
+                        </details>
+                    </div>
+                </article>
+
+                <article class="model-card featured">
+                    <div class="model-image model-gallery">
+                        <span class="model-tag">Usada</span>
+                        <img data-gallery-main
+                             src="WhatsApp%20Image%202026-11-24%20at%2011.25.01%20PM.jpeg"
+                             alt="Kawasaki KLX 300 2025, vista lateral">
+                        <div class="gallery-thumbnails" aria-label="Fotos de la Kawasaki KLX 300">
+                            <button type="button" aria-label="Ver Kawasaki de costado" aria-pressed="true"
+                                    data-image="WhatsApp%20Image%202026-11-24%20at%2011.25.01%20PM.jpeg"
+                                    data-alt="Kawasaki KLX 300 2025, vista lateral">
+                                <img src="WhatsApp%20Image%202026-11-24%20at%2011.25.01%20PM.jpeg" alt="">
+                            </button>
+                            <button type="button" aria-label="Ver asiento y tanque" aria-pressed="false"
+                                    data-image="WhatsApp%20Image%202026-11-24%20at%2011.25.02%20PM%20%281%29.jpeg"
+                                    data-alt="Asiento y tanque de la Kawasaki KLX 300 2025">
+                                <img src="WhatsApp%20Image%202026-11-24%20at%2011.25.02%20PM%20%281%29.jpeg" alt="">
+                            </button>
+                            <button type="button" aria-label="Ver motor y rueda delantera" aria-pressed="false"
+                                    data-image="WhatsApp%20Image%202026-11-24%20at%2011.25.02%20PM%20%282%29.jpeg"
+                                    data-alt="Motor y rueda delantera de la Kawasaki KLX 300 2025">
+                                <img src="WhatsApp%20Image%202026-11-24%20at%2011.25.02%20PM%20%282%29.jpeg" alt="">
+                            </button>
+                            <button type="button" aria-label="Ver moto desde atrás" aria-pressed="false"
+                                    data-image="WhatsApp%20Image%202026-11-24%20at%2011.25.02%20PM%20%283%29.jpeg"
+                                    data-alt="Kawasaki KLX 300 2025, vista trasera lateral">
+                                <img src="WhatsApp%20Image%202026-11-24%20at%2011.25.02%20PM%20%283%29.jpeg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="model-info">
+                        <h3>Kawasaki KLX 300</h3>
+                        <p class="category">Doble propósito · Año 2025</p>
+                        <div class="model-footer">
+                            <div><small>Precio</small><strong>ARS 10.500.000</strong></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="model-card upcoming">
+                    <div class="upcoming-overlay">Próximamente</div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" id="contacto">
+        <div class="container footer-content">
+            <a class="logo" href="#">
+                <span class="logo-mark">CM</span>
+                <span>Cente Motos</span>
+            </a>
+            <p>Consultá disponibilidad, financiación y promociones vigentes.</p>
+            <a class="button button-primary" href="tel:+5492996830655">+54 9 2996 83-0655</a>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const menu = document.querySelector(".nav-menu");
+
+        menuToggle.addEventListener("click", () => {
+            const isOpen = menu.classList.toggle("open");
+            menuToggle.setAttribute("aria-expanded", String(isOpen));
+        });
+
+        document.querySelectorAll(".nav-link").forEach((link) => {
+            link.addEventListener("click", () => {
+                menu.classList.remove("open");
+                menuToggle.setAttribute("aria-expanded", "false");
+            });
+        });
+
+        document.querySelectorAll(".model-gallery").forEach((gallery) => {
+            const mainImage = gallery.querySelector("[data-gallery-main]");
+            const galleryButtons = Array.from(gallery.querySelectorAll(".gallery-thumbnails button"));
+            let galleryIndex = 0;
+
+            function showGalleryImage(index) {
+                const button = galleryButtons[index];
+                mainImage.src = button.dataset.image;
+                mainImage.alt = button.dataset.alt;
+
+                galleryButtons.forEach((thumbnail, thumbnailIndex) => {
+                    thumbnail.setAttribute("aria-pressed", String(thumbnailIndex === index));
+                });
+            }
+
+            showGalleryImage(galleryIndex);
+
+            galleryButtons.forEach((button, index) => {
+                button.addEventListener("click", () => {
+                    galleryIndex = index;
+                    showGalleryImage(galleryIndex);
+                });
+            });
+
+            window.setInterval(() => {
+                galleryIndex = (galleryIndex + 1) % galleryButtons.length;
+                showGalleryImage(galleryIndex);
+            }, 10000);
+        });
+    </script>
+</body>
+</html>
